@@ -1,9 +1,10 @@
 import React from 'react'
+import CountUp from "react-countup";
 
 
 const About = () => {
   return (
-    <div className='flex gap-20 justify-center mx-auto w-300 mt-100 pb-30'>
+    <div className='flex gap-20 justify-center mx-auto w-300 mt-60 pb-30'>
       <div className='w-100'>
         <h3 className='uppercase font-semibold leading-15'>
           About Us
@@ -17,7 +18,7 @@ const About = () => {
         <p className='mt-8  '>
           A transformational journey towards bringing hope and compassion to the world.
         </p>
-        <button className='mt-8 px-7 py-4 rounded-xl border font-bold text-whte border-white hover:cursor-pointer hover:bg-black hover:text-white '>
+        <button className='mt-8 px-7 py-4 rounded-xl border font-bold text-whte border-white hover:cursor-pointer hover:bg-black hover:border-0 hover:text-white '>
           Read More
         </button>
       </div>
